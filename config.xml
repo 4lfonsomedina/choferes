@@ -19,12 +19,12 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
+    <icon src="www/img/logo.png" />
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
     <platform name="android">
-        <resource-file src="network_security_config.xml" target="app/src/main/res/xml/network_security_config.xml" />
         <icon density="ldpi" src="www/img/res/icon/android/ldpi.png" />
         <icon density="mdpi" src="www/img/res/icon/android/mdpi.png" />
         <icon density="hdpi" src="www/img/res/icon/android/hdpi.png" />
